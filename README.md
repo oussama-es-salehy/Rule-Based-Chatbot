@@ -44,3 +44,13 @@ intents = {
     "opening_hours": ["open", "opening", "hours"],
     "pricing": ["price", "cost", "how much"]
 }
+
+
+### Définition des réponses
+```python
+responses = {
+    "greeting": "Hello! How can I help you today?",
+    "opening_hours": "We are open from 9 AM to 6 PM, Monday to Friday.",
+    "pricing": "Our pricing starts at $10 per month.",
+    "default": "Sorry, I didn't understand that. Can you please rephrase?"
+}
